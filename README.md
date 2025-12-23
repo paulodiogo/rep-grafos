@@ -16,9 +16,14 @@ São disponibilizados três parâmetros ``c``, ``hash_size`` e ``fator``. O par�
 
 O método ``construir`` deve ser executado passando-se uma instância ``igraph.Graph`` ou qualquer instância que implemente os métodos ``neighbors`` que retorna os vizinhos de um determinado vértice e ``complementer`` que retorna o complemento de um grafo.
 
-
 ## A classe ``RepModular``
 
 São disponibilizados os parâmetro ``c`` e ``minimo``. O parâmetro ``c`` indica que cada função hash em ``H[v]`` deve representar pelo menos ``c`` vizinhos de ``v``. O parâmetro ``minimo`` é o valor mínimo que os coprimos devem ter.
+
+O método ``construir`` deve ser executado passando-se uma instância ``igraph.Graph`` ou qualquer instância que implemente os métodos ``neighbors`` que retorna os vizinhos de um determinado vértice e ``complementer`` que retorna o complemento de um grafo.
+
+## A classe ``RepSpatialXOR``
+
+São disponibilizados os parâmetro ``tamanho_fingerprint`` e ``k``. O parâmetro ``tamanho_fingerprint`` indica o tamanho em bits das funções hash dos filtros SpatialXOR. O parâmetro ``k`` é o número de funções hash utilizadas pelos filtros SpatialXOR.
 
 O método ``construir`` deve ser executado passando-se uma instância ``igraph.Graph`` ou qualquer instância que implemente os métodos ``neighbors`` que retorna os vizinhos de um determinado vértice e ``complementer`` que retorna o complemento de um grafo.
