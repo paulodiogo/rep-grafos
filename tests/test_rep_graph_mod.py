@@ -1,4 +1,4 @@
-from replasvegas import RepModular
+from rep_grafos import RepModular
 import igraph
  
 def teste_verificar_se_vizinhos_sao_todos_representados():

@@ -1,4 +1,4 @@
-from replasvegas import RepProbabilistic
+from rep_grafos import RepProbabilistic
 import igraph
  
 def teste_verificar_se_vizinhos_sao_todos_representados():
