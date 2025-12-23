@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+ 
+[project]
+name = "replasvegas"
+version = "0.0.1"
+description = "Representação de grafos Las Vegas"
+readme = "README.md"
+authors = [
+    { name = "Paulo Leão", email = "opaulodiogo@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+ 
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths=['tests']
