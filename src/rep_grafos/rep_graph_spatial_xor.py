@@ -60,7 +60,13 @@ class RepSpatialXOR:
         else:
             res = j in filtro
 
-        if res:
-            print(i, eh_filtro, filtro, vizinhos, j)
-
         return res
+
+    def checks(self):
+        for i in range(self.n):        
+            vizinhos = self.G.neighbors(i) 
+
+            for j in vizinhos:
+                assert self.contem(i,j)
+
+        return True  
