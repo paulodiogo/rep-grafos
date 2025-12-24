@@ -1,6 +1,6 @@
 # Representação de grafos Las Vegas
 
-São disponibilizadas duas classes ``RepProbabilistic`` e ``RepModular`` para representação de grafos.
+São disponibilizadas duas classes ``RepProbabilistic``, ``RepSpatialXOR`` e ``RepModular`` para representação de grafos.
 
 # Para executar
 Primeiro instale a dependência obrigatória:
