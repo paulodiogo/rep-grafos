@@ -18,3 +18,7 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths=['tests']
+
+[project.urls]
+Homepage = "https://github.com/paulodiogo/rep-grafos"
+Repository = "https://github.com/paulodiogo/rep-grafos"
