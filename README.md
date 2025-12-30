@@ -29,4 +29,4 @@ São disponibilizados os parâmetro ``tamanho_fingerprint`` e ``k``. O parâmetr
 O método ``construir`` deve ser executado passando-se uma instância ``igraph.Graph`` ou qualquer instância que implemente os métodos ``neighbors`` que retorna os vizinhos de um determinado vértice e ``complementer`` que retorna o complemento de um grafo.
 
 
-A pasta ```data`` tem os dados do artigo, separados por ``;``.
+A pasta ``data`` tem os dados do artigo, separados por ``;``.
