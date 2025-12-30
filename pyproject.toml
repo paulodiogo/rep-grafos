@@ -10,7 +10,7 @@ dependencies = [
     "igraph",
 ]
 
-description = "Representação de grafos Las Vegas"
+description = "Representações Monte Carlo, Las Vegas e Determinística de Grafos Massivos"
 readme = "README.md"
 authors = [
     { name = "Paulo Leão", email = "t5tt0yerl@mozmail.com" }
