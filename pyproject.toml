@@ -7,12 +7,9 @@ name = "rep-grafos"
 version = "0.2.1"
 dependencies = [
     "mmh3==3.0.0",
-    "igraph"
+    "igraph",
 ]
-[project.optional-dependencies]
-dev = [
-    "pytest",
-]
+
 description = "Representação de grafos Las Vegas"
 readme = "README.md"
 authors = [
@@ -30,3 +27,8 @@ testpaths=['tests']
 [project.urls]
 Homepage = "https://github.com/paulodiogo/rep-grafos"
 Repository = "https://github.com/paulodiogo/rep-grafos"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
