@@ -9,7 +9,7 @@ def teste_verificar_se_vizinhos_sao_todos_representados():
 
     c = 3
 
-    rep = RepModular(c, minimo=100)    
+    rep = RepModular(c)    
     rep.construir(G)
 
     for i in range(N):        
@@ -26,7 +26,7 @@ def teste_verificar_se_nao_vizinhos_nao_sao_representados():
 
     c = 3
 
-    rep = RepModular(c, minimo=100)    
+    rep = RepModular(c)    
     rep.construir(G)
 
     G_C = G.complementer(loops=False)
@@ -45,7 +45,7 @@ def teste_verificar_se_metodo_vizinhos_retorna_vizinhaca_correta():
 
     c = 3
 
-    rep = RepModular(c, minimo=100)    
+    rep = RepModular(c)    
     rep.construir(G)
 
     for i in range(N):
