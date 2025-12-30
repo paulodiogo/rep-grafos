@@ -27,3 +27,6 @@ O método ``construir`` deve ser executado passando-se uma instância ``igraph.G
 São disponibilizados os parâmetro ``tamanho_fingerprint`` e ``k``. O parâmetro ``tamanho_fingerprint`` indica o tamanho em bits das funções hash dos filtros SpatialXOR. O parâmetro ``k`` é o número de funções hash utilizadas pelos filtros SpatialXOR.
 
 O método ``construir`` deve ser executado passando-se uma instância ``igraph.Graph`` ou qualquer instância que implemente os métodos ``neighbors`` que retorna os vizinhos de um determinado vértice e ``complementer`` que retorna o complemento de um grafo.
+
+
+A pasta ```data`` tem os dados do artigo, separados por ``;``.
