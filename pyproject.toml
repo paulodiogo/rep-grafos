@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
  
 [project]
 name = "rep-grafos"
-version = "0.0.1"
+version = "0.2.0"
 description = "Representação de grafos Las Vegas"
 readme = "README.md"
 authors = [
