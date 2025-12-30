@@ -3,8 +3,8 @@
 São disponibilizadas duas classes ``RepProbabilistic``, ``RepSpatialXOR`` e ``RepModular`` para representação de grafos.
 
 # Para executar
-Primeiro instale a dependência obrigatória:
-> pip install mmh3==3.0.0 igraph
+Primeiro instale o pacote:
+> pip install rep-grafos
 
 # Como usar
 

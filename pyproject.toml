@@ -4,7 +4,15 @@ build-backend = "setuptools.build_meta"
  
 [project]
 name = "rep-grafos"
-version = "0.2.0"
+version = "0.2.1"
+dependencies = [
+    "mmh3==3.0.0",
+    "igraph"
+]
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
 description = "Representação de grafos Las Vegas"
 readme = "README.md"
 authors = [
