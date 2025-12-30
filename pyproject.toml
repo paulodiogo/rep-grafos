@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
  
 [project]
 name = "rep-grafos"
-version = "0.2.1"
+version = "0.2.2"
 dependencies = [
-    "mmh3==3.0.0",
+    "mmh3",
     "igraph",
 ]
 

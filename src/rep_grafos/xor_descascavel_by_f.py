@@ -42,7 +42,7 @@ class SpatialXorFilter:
 
         while True:
 
-            self.seed = random.getrandbits(64)    
+            self.seed = random.getrandbits(32)    
 
             sucesso, pilha = self.mapear(S)
 
