@@ -2,10 +2,9 @@ import logging, math
 
 class RepModular:    
 
-    def __init__(self, c, minimo = 2):                        
+    def __init__(self, c):                        
         self.c = c                        
-        self.logger = logging.getLogger(__name__)
-        self.minimo = minimo
+        self.logger = logging.getLogger(__name__)        
 
     def gerarCoprimos(self, c, minimo):
         coprimos = []
@@ -84,6 +83,8 @@ class RepModular:
         
         self.G = G
         self.n = len(G.vs)
+
+        self.minimo = self.n
 
         self.HASHES = {}
         self.count_hash = 0

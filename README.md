@@ -18,7 +18,7 @@ O método ``construir`` deve ser executado passando-se uma instância ``igraph.G
 
 ## A classe ``RepModular``
 
-São disponibilizados os parâmetro ``c`` e ``minimo``. O parâmetro ``c`` indica que cada função hash em ``H[v]`` deve representar pelo menos ``c`` vizinhos de ``v``. O parâmetro ``minimo`` é o valor mínimo que os coprimos devem ter e deve ser maior ou igual ao número de vértices (``n``) do grafo.
+São disponibilizados os parâmetro ``c``. O parâmetro ``c`` indica que cada função hash em ``H[v]`` deve representar pelo menos ``c`` vizinhos de ``v``.
 
 O método ``construir`` deve ser executado passando-se uma instância ``igraph.Graph`` ou qualquer instância que implemente os métodos ``neighbors`` que retorna os vizinhos de um determinado vértice e ``complementer`` que retorna o complemento de um grafo.
 
