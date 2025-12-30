@@ -13,7 +13,7 @@ dependencies = [
 description = "Representação de grafos Las Vegas"
 readme = "README.md"
 authors = [
-    { name = "Paulo Leão", email = "opaulodiogo@gmail.com" }
+    { name = "Paulo Leão", email = "t5tt0yerl@mozmail.com" }
 ]
 license = { text = "MIT" }
 requires-python = ">=3.8"
