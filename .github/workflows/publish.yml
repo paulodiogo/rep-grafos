@@ -1,0 +1,36 @@
+name: Upload Python Package to PyPI
+
+on:
+  release:
+    types: [created] # Triggers the workflow when a new GitHub release is created
+
+jobs:
+  pypi-publish:
+    name: Publish release to PyPI
+    runs-on: ubuntu-latest
+    # Recommended: use an environment for additional security rules (optional)
+    environment:
+      name: pypi
+      url: https://pypi.org/p/rep-grafos
+    permissions:
+      id-token: write # Crucial for OIDC/Trusted Publishing authentication
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install build # Install the 'build' package to create distributions
+
+      - name: Build package
+        run: python -m build # Creates the .tar.gz and .whl files in the dist/ directory
+
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1 # The official PyPA action for publishing
+        # This action automatically uses OIDC to authenticate, no username/password needed.
