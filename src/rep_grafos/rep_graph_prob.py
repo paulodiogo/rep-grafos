@@ -3,6 +3,7 @@ from collections import deque
 
 class RepProbabilistic:    
 
+    #construtor
     def __init__(self, c, hash_size = 16, fator = 0.12):                        
         self.c = c        
         self.fator = fator
